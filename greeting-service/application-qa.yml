@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: greeting-service
+server:
+  port: 8081
+greeting-service:
+  greeting: "Ol\u00E1"
+  default-value: "Mundo"
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - 'mappings'
