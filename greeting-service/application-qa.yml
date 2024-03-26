@@ -5,7 +5,7 @@ server:
   port: 8081
 greeting-service:
   greeting: "Ol\u00E1"
-  default-value: "Mundo"
+  default-value: "Neide"
 management:
   endpoints:
     web:
