@@ -10,5 +10,6 @@ management:
   endpoints:
     web:
       exposure:
-        include:
-        - 'mappings'
+        include: "*"
+        #- 'mappings'
+        #- 'refresh'
